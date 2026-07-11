@@ -106,7 +106,10 @@ puts a # "answer" - original string remains unchanged
 
 b = a
 
-a.object_id == b.object_id # true - both a and b point to the same object in memory
+if a.object_id == b.object_id
+    # true - both a and b point to the same object in memory
+    puts "a and b point to the same object in memory"
+end
 
 # import file
 require_relative 'Modules.rb'

@@ -37,3 +37,4 @@ values = getSquareAndCube(4)
 puts values.inspect # Output: [16, 64]
 square, cube = values
 
+puts "Square: #{square}, Cube: #{cube}" # Output: Square: 16, Cube: 64
