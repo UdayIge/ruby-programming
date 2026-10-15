@@ -2,7 +2,7 @@ values = Array[1, 2, 3, 4, 5] # array of integers
 values1 = Array.new() # empty array
 
 arr = ["apple", "banana", "cherry"] # array of strings
-numbers = [1, 2, 3, 4, 5] # array
+numbers = [1, 2, 3, 4, 5] 
 mixed = [1, "two", 3.0, [4, 5]] # array with mixed data types
 # puts arr[0] # first element
 # puts arr[1] # second element
